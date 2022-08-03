@@ -1,0 +1,69 @@
+li {
+    list-style-type: none;
+}
+
+body {
+    background-color: lightsteelblue;
+    font-family: Georgia, 'Times New Roman', Times, sans-serif;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+#opentime {
+    color:darkblue;
+}
+#VO {
+    width: 232px;
+    height: 150px;
+}
+#VONE {
+    width: 252px;
+    height: 150px;
+}
+.logo {
+    float: left;
+}
+
+.menu {
+    margin-left: 50%;
+    
+}
+.logone {
+    float: right;
+}
+.menu a {
+    border-radius: 2px;
+    color: darkblue;
+    display: inline-block;
+    margin: 5px;
+    padding: 15px;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+
+
+.column {
+    float: left;
+    width: 10%;
+    padding: 10px 0;
+    height: 128px; /* Should be removed. Only for demonstration */
+    text-align: center;
+    background-color: lightskyblue;
+    margin: auto;
+    border: 2px solid;
+}
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  #para1 {
+    color:aqua;
+    font-size: 12px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+  }
