@@ -14,13 +14,10 @@ body {
     color:darkblue;
 }
 #VO {
-    width: 232px;
-    height: 150px;
+    width: 250px;
+    height: 175px;
 }
-#VONE {
-    width: 252px;
-    height: 150px;
-}
+
 .logo {
     float: left;
 }
@@ -29,9 +26,7 @@ body {
     margin-left: 50%;
     
 }
-.logone {
-    float: right;
-}
+
 .menu a {
     border-radius: 2px;
     color: darkblue;
@@ -48,10 +43,10 @@ body {
     float: left;
     width: 10%;
     padding: 10px 0;
-    height: 128px; /* Should be removed. Only for demonstration */
+    height: 150px; /* Should be removed. Only for demonstration */
     text-align: center;
     background-color: lightskyblue;
-    margin: auto;
+    margin: 0;
     border: 2px solid;
 }
 
@@ -61,9 +56,22 @@ body {
     clear: both;
   }
 
-  #para1 {
-    color:aqua;
-    font-size: 12px;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  #bigphoto {
+    background-image: url("/img/VanBigPhoto.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+    width: 100%;
+    margin: 20px;
     
+  }
+  #para1 {
+    color:black;
+    font-size: 25px;
+    font-weight: 450;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 20px 100px;
+    margin-top: 60px;
+    line-height: normal;
   }
